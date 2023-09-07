@@ -1,0 +1,9 @@
+# Sample Customers API
+
+You can receive all known Customers with the following call:
+
+operation::all[snippets='curl-request,httpie-request,http-request,http-response,request-body,response-body']
+
+Add a customer with the following request:
+
+operation::add[snippets='curl-request,http-request,request-body,http-response']
