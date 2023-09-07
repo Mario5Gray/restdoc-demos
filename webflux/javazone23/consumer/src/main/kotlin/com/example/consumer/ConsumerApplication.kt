@@ -9,3 +9,5 @@ class ConsumerApplication
 fun main(args: Array<String>) {
 	runApplication<ConsumerApplication>(*args)
 }
+
+data class Customer(val id: Int, val name: String)
